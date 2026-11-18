@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <!--Autoría de Kevin Gutiérez 502-->
+    <style>
+    body {
+        font-family: 'Georgia', 'Times New Roman', serif;
+        background-color: #f7f4eb;
+        color: #2c2520;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+    }
+
+    nav {
+        background-color: #1a1512;
+        padding: 15px 0;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    nav a {
+        color: #e5d4bc;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: bold;
+        letter-spacing: 1px;
+        transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+        color: #bc473a;
+    }
+
+    section {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 30px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 15px rgba(44, 37, 32, 0.05);
+        border-left: 5px solid #4a5d4e;
+    }
+
+    h2 {
+        font-size: 2rem;
+        color: #1a1512;
+        margin-top: 0;
+        border-bottom: 1px dashed #d1c7bd;
+        padding-bottom: 10px;
+        letter-spacing: 0.5px;
+    }
+
+    p {
+        font-size: 1.1rem;
+        color: #54473e;
+        margin-bottom: 20px;
+    }
+
+    .imagen {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+
+    .imagen img {
+        flex: 1;
+        min-width: 250px;
+        max-height: 400px;
+        object-fit: cover;
+        border-radius: 6px;
+        border: 1px solid #d1c7bd;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    }
+</style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#desayunos">Desayunos</a></li>
+            <li><a href="#bebidas">Bebidas</a></li>
+            <li><a href="#postres">Postres</a></li>
+            <li><a href="#pastas">Pastas</a></li>
+        </ul>
+    </nav>
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <p>Bienvenido a nuestro restaurante Pescado Damaigo!</p>
+        <div class="imagen">
+            <img src="imagenes/damaigo.jpg" alt="Damaigo">
+        </div>
+    </section>
+    <section id="desayunos">
+        <h2>Desayunos</h2>
+        <p>Los mejores desayunos para comenzar el día.</p>
+        <div class="imagen">
+            <img src="imagenes/tamagoyaki.jpg" alt="Tamagoyaki">
+            <img src="imagenes/gohan.jpg" alt="Gohan">
+            <img src="imagenes/miso.jpg" alt="Miso">
+        </div>
+    </section>
+    <section id="bebidas">
+        <h2>Bebidas</h2>
+        <p>Refrescantes bebidas para todos los gustos.</p>
+        <div class="imagen">
+            <img src="imagenes/matcha.jpg" alt="Matcha">
+            <img src="imagenes/ramune.jpg" alt="Ramune">
+            <img src="imagenes/blowjob.jpg" alt="Blowjob">
+        </div>
+    </section>
+    <section id="postres">
+        <h2>Postres</h2>
+        <p>Deliciosos postres preparados al momento.</p>
+        <div class="imagen">
+            <img src="imagenes/mochi.jpg" alt="Mochi">
+            <img src="imagenes/dango.jpg" alt="Dango">
+            <img src="imagenes/taiyaki.jpg" alt="Taiyaki">
+        </div>
+    </section>
+    <section id="pastas">
+        <h2>Pastas</h2>
+        <p>Variedad de pastas con recetas tradicionales.</p>
+        <div class="imagen">
+            <img src="imagenes/tonkotsu.jpg" alt="Tonkotsu">
+            <img src="imagenes/katsu.jpg" alt="Katsu">
+            <img src="imagenes/udon.jpg" alt="Udon">
+        </div>
+    </section>
+</body>
+</html>
